@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+
+}
+.box1{
+    height: 100%;
+    width: 60%;
+    background-color:#F7C500;
+}
+.box2{
+    height: 100%;
+    width: 40%;
+    background-color: #F3E7BF;
+}
+.box1 .img1{
+    position: absolute;
+    top: 3%;
+    left: 2%;
+
+}
+.box1 .img2{
+    position: absolute;
+    left: 63%;
+    height: 600px;
+    width: 600px;
+    top: 45%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+}
+.box1 span{
+    position: relative;
+    left: 9%;
+    top: 40%;
+}
+.box1 span .title{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    letter-spacing: 10px;
+}
+.box1 span .name{
+    font-size: 150px;
+}
+.box1 span .desc{
+    font-weight: lighter;
+}
+.box1 .time{
+    font-size: 20px;
+    font-weight: bolder;
+    position: absolute;
+    top: 82%;
+    left: 8%;
+
+}
